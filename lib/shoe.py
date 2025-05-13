@@ -3,7 +3,7 @@ class Shoe:
     def __init__(self, brand, size):
         self.brand = brand
         self._size = None
-        self.size = size  # use the setter to validate
+        self.size = size  
 
     @property
     def size(self):
